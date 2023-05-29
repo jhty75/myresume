@@ -1,22 +1,81 @@
+@font-face {
+  font-family: "titillium";
+  src: url(../assets/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: "teko" ;
+  src: url(../assets/Teko/Teko-Regular.ttf);
+}
+
+
 .main {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+  padding: 20px;
   min-height: 100vh;
   padding: 4rem 0;
+  position: relative;
+  flex-wrap: wrap;
+
 }
 
 .title {
+  line-height: 0.65;
+  font-size: 4rem;
+  margin: 0;
+  font-family: "teko";
+}
+
+.title2 {
   line-height: 1.15;
   font-size: 4rem;
+  margin: 0;
+  font-family: "teko";
 }
 
-.title a {
-  color: #0070f3;
+.text {
+  font-family: "titillium";
+  font-size: 22px;
+  margin: 0;
+  
+}
+
+.mainPicture {
+  height: 600px;
+  max-width: 100%;
+}
+
+.btn {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  width: 106px;
+  height: 47px;
+  border-color: rgb(82, 70, 226);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color:rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.mailto {
+  color: white;
   text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+.mailto:hover {
+  color: rgb(82, 70, 226);
 }
+
+.picContainer {
+  margin-bottom: 200px;
+}
+
+
+
