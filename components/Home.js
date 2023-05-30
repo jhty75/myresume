@@ -5,8 +5,7 @@ import ProExperience from './ProExperience';
 import Education from './Education';
 import Bonus from './Bonus';
 import Footer from './Footer';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+
 
 
 function Home() {
