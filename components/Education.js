@@ -7,7 +7,8 @@ function Education() {
             <div>
                 <h3 className={styles.diplomaTitle}>Chef de projet développement d'applications web & Mobile</h3>
             </div>
-            <p className={styles.EducationPlaces}>2023 La Capsule, à Paris | Développeur Full Stack JavaScript | Projet de fin de batch : l'application Mobile Planit (React Native)
+            <p className={styles.EducationPlaces}>2023 La Capsule, à Paris | Développeur Full Stack JavaScript | Projet de fin de batch : co-développement de l’application
+                Mobile d’organisation de voyages entre ami(e)s : PlanIt (React Native)
             </p>
             <div>
                 <h3 className={styles.diplomaTitle}>Master 2 Communication Rédactionnelle et Mutimédia
