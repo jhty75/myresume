@@ -1,0 +1,43 @@
+
+.mainContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.mainTitle{
+    font-family: "teko";
+    font-size: 68px;
+    color: rgb(0, 0, 0);
+    margin-left: 120px;
+    margin-right: 100px;
+
+}
+
+.bonusTitle {
+    font-family: "teko";
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+    margin-left: 120px;
+    margin-right: 100px;
+}
+
+.flexbox {
+    display: flex;
+    align-items:center;
+}
+
+.iconStyle {
+    color: black;
+    height: 2em;
+    position: relative;
+    right: 89px;
+    cursor: pointer;
+    
+  }
+
+  .iconStyle:hover {
+    transform: scale(1.1);
+    color: rgb(82, 70, 226);
+}
+  

@@ -1,6 +1,12 @@
 import styles from '../styles/Home.module.css';
 import Content from './Content';
-
+import SecondaryComponent from './SecondaryComponent';
+import ProExperience from './ProExperience';
+import Education from './Education';
+import Bonus from './Bonus';
+import Footer from './Footer';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 
 
 function Home() {
@@ -17,7 +23,7 @@ function Home() {
         <img src='TyeCeePic.jpg' alt='Photographie de JH' className={styles.mainPicture} />
         </div>
         <Content className={styles.content} title='Compétences Professionnelles' text='Création, développement & coordination de projets digitaux : applications web & mobiles, e-magazines, e-mailing responsives. JavaScript, TypeScript,' 
-        text2='Node.JS, HTML, CSS, React JS,React Native, Express, Redux, MongoDB, Git, Git Hub, VS Code'
+        text2='Node.JS, HTML, CSS, React JS, React Native, Express, Redux, MongoDB, Git, Git Hub, VS Code'
         text3='Graphisme et PAO : Photoshop, Illustrator, InDesign, Figma, Excalidraw.'
         text4='Montage video : Premiere Pro, After Effects, iMovie'
         text5='Définition et mise en oeuvre de stratégies de communication digitale à destination d’audiences'
@@ -25,9 +31,11 @@ function Home() {
         LinkedinText='Linkedin'
         linkedinLink='https://www.linkedin.com/in/jean-hugues-pam/'
         />
-        <Content className={styles.projectsTab} title='Mes Projets' text='Consultez mes projets sur GitHub'
-        LinkedinText='GitHub'
-        linkedinLink='https://github.com/jhty75'/>
+        <SecondaryComponent className={styles.SecondaryComponent} title='Mes Projets' text='Consultez mes projets sur GitHub' LinkedinText='GitHub' linkedinLink='https://github.com/jhty75' />
+        <ProExperience className={styles.ProExperience} />
+        <Education />
+        <Bonus />
+        <Footer />
       </main>
 
   );

@@ -18,6 +18,8 @@
     color: white;
 }
 
+
+
 .btnLinkedin {
 width: 106px;
 height: 47px;
@@ -40,6 +42,13 @@ border-color: (255, 255, 255);
 .LinkedinText:hover {
    color: white;
 }
+
+
+.projectsTab {
+    width: 100px;
+  }
+
+
 
 
   

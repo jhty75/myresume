@@ -1,0 +1,40 @@
+
+.mainContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 120px;
+    margin-right: 100px;
+    width: 100%;
+}
+.mainTitle{
+    font-family: "teko";
+    font-size: 68px;
+    color: rgb(0, 0, 0)
+
+}
+
+.jobTitle {
+    font-family: "teko";
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+
+
+}
+
+.jobPlaces {
+    font-weight: bold;
+    font-family: titillium;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+
+
+    
+}
+
+.jobMission {
+    font-family: titillium;
+    font-size: 16px;
+    margin-right: 200px;
+
+}
