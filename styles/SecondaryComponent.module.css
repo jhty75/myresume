@@ -1,10 +1,10 @@
-.mainContainer{
+.mainContainer {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     background-color: black;
     width: 100%;
-  
+
 }
 
 .usedTechText {
@@ -12,9 +12,9 @@
     margin-bottom: 40px;
 }
 
-.parentImagesContainer{
-display: flex;
-justify-content: space-around;
+.parentImagesContainer {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imageExo {
@@ -26,14 +26,13 @@ justify-content: space-around;
 
 .imageExo:hover {
     transform: scale(1.1);
-  }
+}
 
 
-.mainTitle{
+.mainTitle {
     font-family: "teko";
     font-size: 68px;
     color: rgb(255, 255, 255)
-
 }
 
 .btnLinkedin {
@@ -42,25 +41,24 @@ justify-content: space-around;
     color: rgb(43, 43, 45);
     border-color: rgb(255, 255, 255);
     border-radius: 7px;
-    }
-    
-    .LinkedinText {
-        color: black;
-        text-decoration: none;
-    }
-    
-    .btnLinkedin:hover {
+}
+
+.LinkedinText {
+    color: black;
+    text-decoration: none;
+}
+
+.btnLinkedin:hover {
     background-color: rgba(0, 0, 0, 0);
     border-color: (255, 255, 255);
-    
-    }
-    
-    .LinkedinText:hover {
-       color: white;
-    }
 
-    .text {
-        padding-top: 30px;
-        color: rgb(255, 255, 255) ;
-    }
-  
+}
+
+.LinkedinText:hover {
+    color: white;
+}
+
+.text {
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+}

@@ -4,7 +4,7 @@
 }
 
 @font-face {
-  font-family: "teko" ;
+  font-family: "teko";
   src: url(../assets/Teko/Teko-Regular.ttf);
 }
 
@@ -40,7 +40,7 @@
   font-family: "titillium";
   font-size: 22px;
   margin: 0;
-  
+
 }
 
 .mainPicture {
@@ -59,7 +59,7 @@
 }
 
 .btn:hover {
-  background-color:rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   color: black;
 }
 
@@ -76,6 +76,3 @@
 .picContainer {
   margin-bottom: 200px;
 }
-
-
-

@@ -21,11 +21,11 @@
 
 
 .btnLinkedin {
-width: 106px;
-height: 47px;
-color: rgb(43, 43, 45);
-border-color: rgb(255, 255, 255);
-border-radius: 7px;
+    width: 106px;
+    height: 47px;
+    color: rgb(43, 43, 45);
+    border-color: rgb(255, 255, 255);
+    border-radius: 7px;
 }
 
 .LinkedinText {
@@ -34,21 +34,16 @@ border-radius: 7px;
 }
 
 .btnLinkedin:hover {
-background-color: rgba(0, 0, 0, 0);
-border-color: (255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: (255, 255, 255);
 
 }
 
 .LinkedinText:hover {
-   color: white;
+    color: white;
 }
 
 
 .projectsTab {
     width: 100px;
-  }
-
-
-
-
-  
+}

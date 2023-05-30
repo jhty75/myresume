@@ -1,11 +1,11 @@
-
 .mainContainer {
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
     background-color: rgb(255, 255, 255);
 }
-.mainTitle{
+
+.mainTitle {
     font-family: "teko";
     font-size: 68px;
     color: rgb(0, 0, 0);
@@ -24,7 +24,7 @@
 
 .flexbox {
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 
 .iconStyle {
@@ -33,11 +33,10 @@
     position: relative;
     right: 89px;
     cursor: pointer;
-    
-  }
 
-  .iconStyle:hover {
+}
+
+.iconStyle:hover {
     transform: scale(1.1);
     color: rgb(82, 70, 226);
 }
-  
