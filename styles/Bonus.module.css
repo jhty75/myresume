@@ -40,3 +40,22 @@
     transform: scale(1.1);
     color: rgb(82, 70, 226);
 }
+
+/* Media queries pour les smartphones */
+@media (max-width: 480px) {
+ 
+    .mainTitle {
+      margin: 1rem 4rem;
+    }
+
+    .bonusTitle{
+        margin: 1.5rem 4rem;
+    }
+
+    .iconstyle {
+        position: absolute;
+        top: 2rem;
+
+}
+  
+  }

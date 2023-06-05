@@ -47,3 +47,12 @@
 .projectsTab {
     width: 100px;
 }
+
+/* Media queries pour les smartphones */
+@media (max-width: 480px) {
+ 
+    .ContentText {
+      margin: 2rem;
+    }
+  
+  }

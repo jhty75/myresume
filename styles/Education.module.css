@@ -33,4 +33,23 @@
     text-align: justify;
     margin-left: 120px;
     margin-right: 120px;
+    display: block;
+    text-align: justify;
 }
+
+/* Media queries pour les smartphones */
+@media (max-width: 480px) {
+ 
+    .mainTitle {
+      margin: 1rem 4rem;
+    }
+
+    .diplomaTitle {
+        margin: 1rem 4rem;
+    }
+
+    .EducationPlaces {
+        margin: 1rem 4rem;
+    }
+  
+  }
