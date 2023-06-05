@@ -45,6 +45,10 @@
         margin: 0;
         width: 100%;
     }
+
+    .mainTitle {
+        text-align: center;
+    }
    
  
     .mainTitle {
