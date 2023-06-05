@@ -86,13 +86,13 @@
 
   .mainContainer {
     padding: 2rem;
-    margin: 0 1rem;
+    margin: 0rem;
     width: 100%;
 }
 
  
   .text {
-    margin-left: 2rem;
+    margin: 0 2rem;
   }
 
   .title {
