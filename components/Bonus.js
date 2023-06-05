@@ -8,7 +8,7 @@ import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 function Bonus() {
     return (
         <div className={styles.mainContainer}>
-            <h1 className={styles.mainTitle}>Mais Aussi...</h1>
+            <h1 className={styles.mainTitle}>Et Aussi...</h1>
             <div>
                 <h3 className={styles.bonusTitle}>Dreamweaver, Google Analytics, Certfication Google Digital Active
                 </h3>
