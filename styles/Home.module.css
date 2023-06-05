@@ -97,10 +97,12 @@
 
   }
 
+
   .mainPicture {
     height: auto;
-    width: 100%;
+    width: 70%;
     margin-top: 2rem;
+    margin-left: 3.7rem;
   }
 
   .btn {
