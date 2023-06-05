@@ -31,7 +31,8 @@
     color: black;
     /* height: 2em; */
     position: relative;
-    right: 77px;
+    right: 0.8rem;
+    top : 1.3rem;
     cursor: pointer;
 
 }
@@ -43,19 +44,20 @@
 
 /* Media queries pour les smartphones */
 @media (max-width: 480px) {
+
+    .mainContainer {
+        padding: 2rem;
+        margin: 0;
+        width: 100%;
+    }
     
  
     .mainTitle {
-      margin: 1rem 2rem;
+      margin: 1rem 0.5rem;
     }
 
     .bonusTitle{
-        margin: 1.5rem 2rem;
+        margin: 1.5rem 0.5rem;
     }
 
-    /* .iconstyle {
-        margin-right: 0.5rem;
-
-} */
-  
   }

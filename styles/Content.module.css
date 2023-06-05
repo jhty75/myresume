@@ -50,6 +50,12 @@
 
 /* Media queries pour les smartphones */
 @media (max-width: 480px) {
+
+    .mainContainer {
+        padding: 2rem;
+        margin: 0;
+        width: 100%;
+    }
  
     .ContentText {
       margin: 2rem;
