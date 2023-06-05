@@ -54,21 +54,18 @@
         width: 100%;
     }
 
-    .mainTitle {
-        margin: 0rem 0rem;
-    }
- 
+    
     .jobMission {
-      margin: 1rem 2%;
+      margin: 0rem 2%;
       text-align: justify;
     }
 
     .jobTitle {
-        margin: 1rem 0rem;
+        margin: 1rem 2%;
       }
 
       .jobPlaces {
-        margin: 1rem 0rem;
+        margin: 1rem 2%;
       }
     
     

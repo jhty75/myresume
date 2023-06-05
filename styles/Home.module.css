@@ -88,7 +88,8 @@
   }
 
   .title {
-    margin: 0rem 2rem;
+    margin: -2rem 2rem 0;
+    bottom: 5rem;
   }
 
   .title2 {
