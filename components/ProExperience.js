@@ -5,7 +5,7 @@ function ProExperience() {
         <div className={styles.mainContainer}>
             <h1 className={styles.mainTitle}>Expérience Professionnelle</h1>
             <div>
-                <h3 className={styles.jobTitle}>DIGITAL COMMUNICATIONS & PUBLIC DIPLOMACY OFFICER</h3>
+                <h2 className={styles.jobTitle}>DIGITAL COMMUNICATIONS & PUBLIC DIPLOMACY OFFICER</h2>
             </div>
             <p className={styles.jobPlaces}>British Embassy Paris |
                 De 2020 à ce jour</p>
@@ -22,7 +22,7 @@ function ProExperience() {
             <div>
             </div>
             <div>
-                <h3 className={styles.jobTitle}>CHARGÉ DE COMMUNICATION INTERNE</h3>
+                <h2 className={styles.jobTitle}>CHARGÉ DE COMMUNICATION INTERNE</h2>
             </div>
             <p className={styles.jobPlaces}>Free-Iliad, à Paris |
                 De 2016 à 2020</p>
@@ -35,8 +35,8 @@ function ProExperience() {
                     qu’il fait bon travailler dans l’entreprise). </p>
             </div>
             <div>
-                <h3 className={styles.jobTitle}>DIRECTEUR DU DÉVELOPPEMENT COMMERCIAL
-                    & MARKETING (cofondateur)</h3>
+                <h2 className={styles.jobTitle}>DIRECTEUR DU DÉVELOPPEMENT COMMERCIAL
+                    & MARKETING (cofondateur)</h2>
             </div>
             <p className={styles.jobPlaces}>Adagio Advising, à Paris |
                 De 2008 à 2015</p>
@@ -54,7 +54,7 @@ function ProExperience() {
                     fidélisation de 85% de clients | reconduction des partenariats. </p>
             </div>
             <div>
-                <h3 className={styles.jobTitle}>CHEF DE PROJET CULTUREL (stage de fin d'études)</h3>
+                <h2 className={styles.jobTitle}>CHEF DE PROJET CULTUREL (stage de fin d'études)</h2>
             </div>
             <p className={styles.jobPlaces}>Consulat général de France à Miami, USA |
                 2007 </p>
