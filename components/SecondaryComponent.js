@@ -1,9 +1,11 @@
 import styles from '../styles/SecondaryComponent.module.css';
+import { faJediOrder } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function SecondaryComponent({ LinkedinText, linkedinLink }) {
     return (
         <div className={styles.mainContainer}>
-            <h1 className={styles.mainTitle}>Mes Projets</h1>
+            <h1 className={styles.mainTitle}>Missions en tant que Jedi <FontAwesomeIcon icon={faJediOrder} style={{paddingLeft: "5px"}}/> </h1>
             <p className={styles.usedTechText}><strong>Technologies utilisées :</strong> React JS, Express, Node.JS, MongoDB, JavaScript, HTML, CSS, Redux.</p>
 
             <div className={styles.parentImagesContainer}>

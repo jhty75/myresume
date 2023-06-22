@@ -3,9 +3,9 @@ import styles from '../styles/Education.module.css';
 function Education() {
     return (
         <div className={styles.mainContainer}>
-            <h1 className={styles.mainTitle}>Formation</h1>
+            <h1 className={styles.mainTitle}>Le réveil de la Force</h1>
             <div>
-                <h3 className={styles.diplomaTitle}>Chef de projet développement d'applications web & Mobile</h3>
+                <h3 className={styles.diplomaTitle}>Diplôme professionnel Chef de projet développement d'applications web & Mobile (BAC+3/4) </h3>
             </div>
             <p className={styles.EducationPlaces}>2023 La Capsule, à Paris | Développeur Full Stack JavaScript | Projet de fin de batch : co-développement de l’application
                 Mobile d’organisation de voyages entre ami(e)s : PlanIt (React Native)
