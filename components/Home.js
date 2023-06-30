@@ -6,8 +6,6 @@ import Education from './Education';
 import Bonus from './Bonus';
 import Footer from './Footer';
 import Head from 'next/head';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSwordLaser, faStarFighter } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -17,14 +15,24 @@ function Home() {
   return (
    <>
    <Head>
-    <title>L'univers de Jean-Hugues Pam</title>
-    <meta name="description" content="Développeur full stack React JS | React Native| Node JS | Spécialiste communication digitale" />
+    <title>L'univers de Jean-Hugues Pam, Développeur full stack React JS | React Native | Node JS | Spécialiste communication digitale et passionné de code</title>
+    <meta name="description" content="Développeur full stack React JS, React Native, Node JS, Redux, MongoDB, JavaScript, Mongoose, Express JS, Figma, Jira, Trello, coding, coder, codeur, Spécialiste communication digitale, passionné de code" />
+      {/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMDHENFJ9K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CMDHENFJ9K');
+</script>
    </Head>
+
     <main className={styles.main}>
       <div className={styles.titleWrapper} >
         <h1 className={styles.title}>Jean-Hugues </h1>
         <h1 className={styles.title2}>Pam</h1>
-        <h2 className={styles.text}>Développeur full stack React JS | React Native |</h2>
+        <h2 className={styles.text}>Développeur full stack Junior React JS | React Native |</h2>
         <h2 className={styles.text}>Node JS | Spécialiste communication digitale.</h2>
         <button className={styles.btn}><a href='mailto:jhuguespam@gmail.com' className={styles.mailto}>Email Me</a></button>
       </div >
@@ -46,7 +54,6 @@ function Home() {
       <Bonus />
       <Footer />
     </main>
-    <FontAwesomeIcon icon={faSwordLaser} style={{color:'red',}}/>
     </>
 
   );

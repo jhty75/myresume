@@ -9,7 +9,7 @@ function ProExperience() {
             </div>
             <p className={styles.jobPlaces}>British Embassy Paris |
                 De 2020 à ce jour</p>
-            <p className={styles.jobMission}>Publication et mise à jour du site internet <a href='https://www.gov.uk'>GOV.UK</a> | Rédaction, implémentation et évaluation de
+            <p className={styles.jobMission}>Publication et mise à jour du site internet <a href='https://www.gov.uk'>GOV.UK</a> (6M de visiteurs/jour) | Rédaction, implémentation et évaluation de
                 la stratégie social media | Création de contenu bilingue (vidéos, photographies,
                 infographies, campagnes publicitaires) et gestion des réseaux sociaux |
                 Production de la revue de presse hebdomadaire et diffusion au équipes
