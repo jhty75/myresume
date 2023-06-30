@@ -10,6 +10,7 @@ import Head from 'next/head';
 
 
 
+
 function Home() {
 
   return (
@@ -17,17 +18,7 @@ function Home() {
    <Head>
     <title>L'univers de Jean-Hugues Pam, Développeur full stack React JS | React Native | Node JS | Spécialiste communication digitale et passionné de code</title>
     <meta name="description" content="Développeur full stack React JS, React Native, Node JS, Redux, MongoDB, JavaScript, Mongoose, Express JS, Figma, Jira, Trello, coding, coder, codeur, Spécialiste communication digitale, passionné de code" />
-      {/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CMDHENFJ9K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CMDHENFJ9K');
-</script>
    </Head>
-
     <main className={styles.main}>
       <div className={styles.titleWrapper} >
         <h1 className={styles.title}>Jean-Hugues </h1>
