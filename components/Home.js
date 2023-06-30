@@ -19,7 +19,7 @@ function Home() {
     <title>L'univers de Jean-Hugues Pam, Développeur full stack React JS | React Native | Node JS | Spécialiste communication digitale et passionné de code</title>
     <meta name="description" content="Développeur full stack React JS, React Native, Node JS, Redux, MongoDB, JavaScript, Mongoose, Express JS, Figma, Jira, Trello, coding, coder, codeur, Spécialiste communication digitale, passionné de code" />
    </Head>
-    <main className={styles.main}>
+    <main className={styles.main} lang="fr">
       <div className={styles.titleWrapper} >
         <h1 className={styles.title}>Jean-Hugues </h1>
         <h1 className={styles.title2}>Pam</h1>
