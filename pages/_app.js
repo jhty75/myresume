@@ -14,10 +14,12 @@ function App({ Component, pageProps }) {
   }, []);
   return (
     <>
+    <div lang="fr">
       <Head>
-        <title>Next.js App</title>
+        <title>L'univers de Jean-Hugues Pam, Développeur full stack junior React JS, React Native, Node JS</title>
       </Head>
       <Component {...pageProps} />
+      </div>
     </>
   );
 }
