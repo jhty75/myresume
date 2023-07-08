@@ -1,21 +1,34 @@
 import '../styles/globals.css';
-import Head from 'next/head';
 import ReactGA from 'react-ga';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 
+const TRACKING_ID = "G-CMDHENFJ9K"; // my Google tracking ID
+ReactGA.initialize(TRACKING_ID);
 
 
 
 function App({ Component, pageProps }) {
-  useEffect(() =>{
-    ReactGA.initialize('G-CMDHENFJ9K');
-    ReactGA.pageview('/')
+
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ReactGA.pageview(url);
+    };
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
   }, []);
+
+
   return (
     <>
       <Head>
-        <title>L'univers de Jean-Hugues Pam, Développeur full stack junior React JS, React Native, Node JS</title>
+        <title></title>
       </Head>
       <Component {...pageProps} />
     </>
