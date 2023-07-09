@@ -6,7 +6,9 @@ function SecondaryComponent({ LinkedinText, linkedinLink }) {
     return (
         <div className={styles.mainContainer}>
             <h1 className={styles.mainTitle}>Missions en tant que Jedi <FontAwesomeIcon icon={faJediOrder} style={{paddingLeft: "5px"}}/> </h1>
-            <p className={styles.usedTechText}><strong>Technologies utilisées :</strong> React JS, Express, Node.JS, MongoDB, JavaScript, HTML, CSS, Redux.</p>
+            <h2 className={styles.usedTechText}><strong>Applications Web:</strong></h2>
+
+            <p className={styles.usedTechText}><strong>Technologies utilisées :</strong> React JS, Express, Node.JS, MongoDB, JavaScript, Redux, Vercel.</p>
 
             <div className={styles.parentImagesContainer}>
                 <div>
@@ -20,6 +22,13 @@ function SecondaryComponent({ LinkedinText, linkedinLink }) {
                     </a>
                 </div>
             </div>
+            <div>
+            <h2 className={styles.usedTechText} style={{marginTop:"60px"}}><strong>Application Mobile:</strong></h2>
+            <p className={styles.usedTechText} style={{marginTop:"40px"}}><strong>Technologies utilisées :</strong> React Native, Express, Node.JS, MongoDB, JavaScript, HTML, CSS, Redux, Cloudinary, Expo Go, Vercel.</p>
+                    <a href="https://drive.google.com/file/d/10kXGmU8LvfMG5r7nnLF18qlUn7R1azva/view?usp=sharing">
+                        <img src="PlanitApp.png" className={styles.imageExo} style={{width: '15%'}} />
+                    </a>
+                </div>
             <p className={styles.text}>Consultez mes projets sur GitHub</p>
             <button className={styles.btnLinkedin}><a href={linkedinLink} className={styles.LinkedinText}>{LinkedinText}</a>
             </button>

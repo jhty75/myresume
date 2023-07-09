@@ -5,10 +5,9 @@ function Education() {
         <div className={styles.mainContainer}>
             <h1 className={styles.mainTitle}>Le réveil de la Force</h1>
             <div>
-                <h3 className={styles.diplomaTitle}>Diplôme professionnel Chef de projet développement d'applications web & Mobile (BAC+3/4) </h3>
+                <h3 className={styles.diplomaTitle}>Diplôme professionnel Chef de projet développement d'applications Web & Mobile (BAC+3/4) </h3>
             </div>
-            <p className={styles.EducationPlaces}>2023 La Capsule, à Paris | Développeur Full Stack JavaScript | Projet de fin de batch : co-développement de l’application
-                Mobile d’organisation de voyages entre ami(e)s : PlanIt (React Native)
+            <p className={styles.EducationPlaces}>2023 La Capsule, à Paris | Développeur Web & Mobile JavaScript Full Stack 
             </p>
             <div>
                 <h3 className={styles.diplomaTitle}>Master 2 Communication Rédactionnelle et Mutimédia

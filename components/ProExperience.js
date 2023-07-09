@@ -5,6 +5,16 @@ function ProExperience() {
         <div className={styles.mainContainer}>
             <h1 className={styles.mainTitle}>Galaxies Professionnelles</h1>
             <div>
+                <h2 className={styles.jobTitle}>CO-DÉVELOPPEUR FULL STACK</h2>
+            </div>
+            <p className={styles.jobPlaces}>Planit, à Paris |
+                2023</p>
+            <p className={styles.jobMission}>Co-développement de Planit, l’application Mobile d’organisation de voyages
+                entre amis | Méthodologie SCRUM : création et gestion storyboards, user
+                panel, user tests, user stories, wireframe, mock-up | Définition des sprints de
+                développement | Coding | Peer-programming | Reporting : <a href="https://drive.google.com/file/d/10kXGmU8LvfMG5r7nnLF18qlUn7R1azva/view?usp=sharing">Découvrez l'application Planit en cliquant ici</a></p>
+
+            <div>
                 <h2 className={styles.jobTitle}>DIGITAL COMMUNICATIONS & PUBLIC DIPLOMACY OFFICER</h2>
             </div>
             <p className={styles.jobPlaces}>British Embassy Paris |
@@ -19,8 +29,6 @@ function ProExperience() {
                 (COVID-19, Brexit, Ukraine) </p>
             <p className={styles.jobMission}><strong>Résultats :</strong> Augmentation du nombre de followers : 73% en moyenne par an et accroissement du taux d’engagement de 9,55% par an en moyenne toutes nos plateformes confondues.
             </p>
-            <div>
-            </div>
             <div>
                 <h2 className={styles.jobTitle}>CHARGÉ DE COMMUNICATION INTERNE</h2>
             </div>
