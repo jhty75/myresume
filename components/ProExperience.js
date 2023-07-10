@@ -34,7 +34,7 @@ function ProExperience() {
             </div>
             <p className={styles.jobPlaces}>Free-Iliad, à Paris |
                 De 2016 à 2020</p>
-            <p className={styles.jobMission}>RRefonte intégrale et gestion du e-magazine interne mensuel | Gestion
+            <p className={styles.jobMission}>Refonte intégrale et gestion du e-magazine interne mensuel | Gestion
                 de projets avec l’équipe IT pour développement d’applications de diffusion
                 de campagnes d’e-mailing responsive et d’outils de statistiques | Lancement, animation et modération
                 de la digitale Workplace | Production
