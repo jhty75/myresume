@@ -11,7 +11,8 @@
     font-family: "teko";
     font-size: 68px;
     color: rgb(0, 0, 0);
-    margin-left: 120px;
+    font-size: 65px;
+  margin-left: 120px;
     margin-right: 100px;
 
 }
@@ -50,6 +51,8 @@
 
     .mainTitle {
         text-align: center;
+        font-size: 65px;
+
     }
    
  

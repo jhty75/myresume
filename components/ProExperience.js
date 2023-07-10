@@ -3,7 +3,7 @@ import styles from '../styles/ProExperience.module.css';
 function ProExperience() {
     return (
         <div className={styles.mainContainer}>
-            <h1 className={styles.mainTitle}>Galaxies Professionnelles</h1>
+            <h1 className={styles.mainTitle}>Galaxies professionnelles</h1>
             <div>
                 <h2 className={styles.jobTitle}>CO-DÉVELOPPEUR FULL STACK</h2>
             </div>

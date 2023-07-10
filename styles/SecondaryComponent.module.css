@@ -73,6 +73,10 @@
         margin: 0;
         width: 100%;
     }
+
+    .mainTitle {
+        font-size: 60px;
+    }
  
     .usedTechText {
       margin: 2rem;
