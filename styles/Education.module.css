@@ -3,7 +3,7 @@
     padding-bottom: 50px;
     /* margin-left: 120px;
     margin-right: 100px; */
-    width: 100vw;
+    width: 100%;
     background-color: rgb(245, 245, 245);
 }
 
@@ -48,10 +48,12 @@
 
     .mainTitle {
         text-align: center;
-        margin: 0rem 0.5rem;
-
     }
    
+ 
+    .mainTitle {
+      margin: 0rem 0.5rem;
+    }
 
     .diplomaTitle {
         margin: 1rem 0.5rem;
