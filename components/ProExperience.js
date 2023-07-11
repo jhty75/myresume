@@ -51,7 +51,7 @@ function ProExperience() {
             </div>
             <p className={styles.jobPlaces}>Adagio Advising, à Paris |
                 De 2008 à 2015</p>
-            <p className={styles.jobMission}>GGestion et développement de projets digitaux : Création de sites Internet
+            <p className={styles.jobMission}>Gestion et développement de projets digitaux : Création de sites Internet
                 et administration via CMS | Définition et implementation stratégie de
                 contenus, gestion de blog et réseaux sociaux | SEO & SEA | Création de
                 campagnes de Marketing Direct | Rédaction de dossier de partenariat |
@@ -68,7 +68,7 @@ function ProExperience() {
             </div>
             <p className={styles.jobPlaces}>Consulat général de France à Miami, USA |
                 2007 </p>
-            <p className={styles.jobMission}>PPublication et mise à jour de la rubrique du site Internet | Développement
+            <p className={styles.jobMission}>Publication et mise à jour de la rubrique du site Internet | Développement
                 d’un partenariat avec UNIVERSAL MUSIC et pilotage du projet Make Music
                 Miami! | Coordination des prestataires, de la logistique événementielle |
                 Rédaction et création supports de communication bilingues | Veille,
