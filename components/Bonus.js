@@ -16,7 +16,7 @@ function Bonus() {
 
             <div>
                 <div className={styles.flexbox}>
-                    <h3 className={styles.bonusTitle}> Créativité, auteur, compositeur, interprète membre de la SACEM </h3>
+                    <h3 className={styles.bonusTitle}> Créativité, auteur, compositeur, interprète, membre de la SACEM </h3>
                     <a href='https://open.spotify.com/artist/18d22cjC2eWLDsJ7f2sVAr'><FontAwesomeIcon icon={faSpotify} className={styles.iconStyle} /></a>
                 </div>
 
