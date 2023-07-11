@@ -1,7 +1,7 @@
 .mainContainer {
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(255, 255, 255);
 }
 
@@ -48,13 +48,13 @@
     .mainContainer {
         padding: 2rem;
         margin: 0;
-        width: 100%;
+        width: 100vw;
     }
     
  
     .mainTitle {
       margin: 1rem 0.5rem;
-      font-size: 65px;
+      font-size: 61px;
     }
 
     .bonusTitle{

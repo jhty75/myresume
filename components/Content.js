@@ -1,5 +1,4 @@
 import styles from '../styles/Content.module.css';
-import SecondaryComponent from './SecondaryComponent';
 
 
 function Content ({className, title, text, text2, text3, text4, text5, text6, LinkedinText, linkedinLink}) {

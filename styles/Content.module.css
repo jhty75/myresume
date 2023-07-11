@@ -45,7 +45,7 @@
 
 
 .projectsTab {
-    width: 100px;
+    width: 100vw;
 }
 
 /* Media queries pour les smartphones */
@@ -54,7 +54,7 @@
     .mainContainer {
         padding: 2rem;
         margin: 0;
-        width: 100%;
+        width: 100vh;
     }
  
     .ContentText {

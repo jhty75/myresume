@@ -4,7 +4,7 @@
     /* margin-left: 120px;
     margin-right: 100px; */
     background-color: rgb(245, 245, 245);
-    width: 100%;
+    width: 100vw;
 }
 
 .mainTitle {
@@ -46,12 +46,12 @@
     .mainContainer {
         padding: 2rem;
         margin: 0;
-        width: 100%;
+        width: 100vw;
     }
 
     .mainTitle {
         text-align: center;
-        font-size: 65px;
+        font-size: 61px;
 
     }
    

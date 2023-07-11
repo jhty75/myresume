@@ -4,7 +4,7 @@
     padding-bottom: 50px;
     text-align: center;
     background-color: black;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -71,11 +71,11 @@
     .mainContainer {
         padding: 2rem;
         margin: 0;
-        width: 100%;
+        width: 100vw;
     }
 
     .mainTitle {
-        font-size: 60px;
+        font-size: 61px;
     }
  
     .usedTechText {
