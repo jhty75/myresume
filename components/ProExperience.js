@@ -39,7 +39,7 @@ function ProExperience() {
                 de campagnes d’e-mailing responsive et d’outils de statistiques | Lancement, animation et modération
                 de la digitale Workplace | Production
                 de vidéos | Développement de formation digitale |  Identification, négociation et coordination
-                prestataires / Gestion des budgets | Enquêtes d’opinion interne | Pilotage « Culture Audit » GPTW.</p>
+                prestataires | Gestion des budgets | Enquêtes d’opinion interne | Pilotage « Culture Audit » GPTW.</p>
             <div>
                 <p className={styles.jobMission}><strong>Résultats :</strong> Augmentation audience magazine (63% par mois en moyenne) |
                     Meilleur usage par les employés de la digitale Workplace | Obtention de la certification GPTW (71% des collaborateurs considèrent
