@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import { GoogleAnalytics } from "nextjs-google-analytics";
+import React from 'react';
 
 
 function App({ Component, pageProps }) {
